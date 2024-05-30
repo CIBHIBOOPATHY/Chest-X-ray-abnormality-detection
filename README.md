@@ -26,7 +26,7 @@ To install Jupyter notebook:
 ## Usage
 1. Download the dataset from the link: https://www.kaggle.com/c/vinbigdata-chest-xray-abnormalities-detection/overview
 2. Once you have downloaded the dataset, store it an appropriate file location.
-3. Open the python jupyter notebook and run the jupyter notebook after modifying dice images folder path, png images folder path, Training, Testing and Validation images and labels folder path. The training dataset folder and validation dataset folder must contain two folders each - named ‘images’ and ‘labels’. Incorrect spelling leads to the model not starting to train on kaggle. The test dataset folder should only contain one folder - ‘images’.
+3. Open the python jupyter notebook and run the jupyter notebook after modifying dicom images folder path, png images folder path, Training, Testing and Validation images and labels folder path. The training dataset folder and validation dataset folder must contain two folders each - named ‘images’ and ‘labels’. Incorrect spelling leads to the model not starting to train on kaggle. The test dataset folder should only contain one folder - ‘images’.
 4. Upload the train, test and validations folders after compressing it onto kaggle data directory after importing the kaggle notebook from this project
 5. Create a .yaml file consisting of the kaggle training images path, kaggle validation images path, number of classifications and the classes. Upload it onto kaggle.
 6. Run the first two command lines of the kaggle notebook after any modifications you wish to do in the CLI. After running the first two commands, replace the model with the best model obtained after training the model from command two in the third command line, then execute command line three.
